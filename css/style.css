@@ -34,8 +34,38 @@ section{
     background-color: #abcfe7;
 }
 
+section:nth-child(1){
+    height: 15%;
+}
+
+section:nth-child(2){
+    height: 80%;
+    width: auto;
+    float: left;
+}
+
+section:nth-child(3){
+    height: 80%;
+    width: 50%;
+    float: left;
+    margin: 0 2%;
+}
+
+section:nth-child(4){
+    height: 80%;
+    width: auto;
+    float: left;
+}
+
+/* section:nth-child(4):after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
 footer{
     border: 1px solid black;
-    height: 10%;
+    height: 5%;
     background-color: #8801fe;
+    margin: 2% 0;
 }
