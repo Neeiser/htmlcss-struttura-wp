@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Utilizzo il Viewport per una maggiore "responsivness" della pagina e delle proporzioni,
+anche se di sicuro non è corretto come ho strutturato il tutto */
 .container{
     height: 100vh;
     margin: 2% 10%;
@@ -30,6 +32,7 @@ section{
     background-color: #abcfe7;
 }
 
+/* Ho calcolato le varie proporzioni dei rettangoli, anche se viene un lavoro preciso, il tutto risulta poco manutenibile */
 section:nth-child(1){
     height: 15%;
     margin-bottom: 2%;
@@ -47,7 +50,7 @@ section:nth-child(3){
     float: left;
     margin: 0 2%;
 }
-
+/* Lo "flotto" a destra per semplicità */
 section:nth-child(4){
     height: 80%;
     width: 20%;
