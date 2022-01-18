@@ -28,30 +28,30 @@ main{
     padding-bottom: 2%;
 }
 
-section{
+.block{
     background-color: #abcfe7;
 }
 
 /* Ho calcolato le varie proporzioni dei rettangoli, anche se viene un lavoro preciso, il tutto risulta poco manutenibile */
-section:nth-child(1){
+.top{
     height: 15%;
     margin-bottom: 2%;
 }
 
-section:nth-child(2){
+.left{
     height: 80%;
     width: 20%;
     float: left;
 }
 
-section:nth-child(3){
+.center{
     height: 80%;
     width: 56%;
     float: left;
     margin: 0 2%;
 }
 /* Lo "flotto" a destra per semplicità */
-section:nth-child(4){
+.right{
     height: 80%;
     width: 20%;
     float: right;
