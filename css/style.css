@@ -10,3 +10,15 @@
     margin: 2% 10%;
 }
 
+header{
+    border: 1px solid black;
+    height: 15%;
+    background-color: #e579e6;
+}
+
+nav{
+    border: 1px solid black;
+    height: 40%;
+    background-color: #e1d67a;
+    margin: 2% 0;
+}
